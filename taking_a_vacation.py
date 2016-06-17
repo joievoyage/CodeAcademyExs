@@ -1,4 +1,4 @@
-def hotel_cost(nights):
+ef hotel_cost(nights):
     #The hotel costs $140 per night
     return 140 * nights
 
@@ -21,5 +21,6 @@ def rental_car_cost(days):
         cost -= 20
     return cost
 
-def trip_cost(city, days):
-    return hotel_cost(days) + plane_ride_cost(city) + rental_car_cost(days)
+def trip_cost(city, days, spending_money):
+    print trip_cost("Los Angeles", 5, 600)
+    return hotel_cost(days) + plane_ride_cost(city) + rental_car_cost(days) + spending_money
