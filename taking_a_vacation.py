@@ -1,4 +1,4 @@
-ef hotel_cost(nights):
+def hotel_cost(nights):
     #The hotel costs $140 per night
     return 140 * nights
 
