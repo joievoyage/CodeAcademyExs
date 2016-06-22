@@ -1,7 +1,7 @@
 # there is three students, lloyd, alice and tyler. They have few data show under there name, name, homework, quzzes and tests.
 lloyd = {
     "name": "Lloyd",
-    "homework": [90,0, 97.0, 75.0, 92.0],
+    "homework": [90.0, 97.0, 75.0, 92.0],
     "quizzes": [88.0, 40.0, 94.0],
     "tests": [75.0, 90.0]
 }
@@ -21,8 +21,8 @@ tyler = {
 # these 3 students is in a list called students.
 students = [lloyd, alice, tyler]
 # There is a for loop here:
-for student in students:
-    print "name: %s" % student["name"]
-    print "homework: %s" % student["homework"]
-    print "quizzes: %s" % student["quizzes"]
-    print "tests: %s" % student["tests"]
+for key in students:
+    print key["name"]
+    print key["homework"]
+    print key["quizzes"]
+    print key["tests"]
